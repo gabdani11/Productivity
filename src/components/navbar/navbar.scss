@@ -1,0 +1,37 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+
+    img{
+        height: 50px;
+    }
+    .nav-links{
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        a{
+            text-decoration: none;
+
+        }
+        
+    
+    }
+    .theme-btn{
+        height: 25px;
+        width: 50px;
+        background-color: black;
+        border-radius: 50px;
+
+        .theme-ball{
+            height: 100%;
+            width: 50%;
+            border-radius: 100%;
+            background-color: whitesmoke;
+        }
+    }
+
+}
+
