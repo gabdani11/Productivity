@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #F3F0E7;
+  --secondary-color: #2A2629;
+  --background-color: #f0f0f0;
+  --font-color: #ffffff;
+  --border-radius: 8px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 * , *::before, *::after { box-sizing: border-box;
 margin: 0;
 padding: 0; }
