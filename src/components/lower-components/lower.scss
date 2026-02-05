@@ -3,7 +3,8 @@
     width: 100%;
     display: flex;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
+    
     
 
 .quote{
@@ -13,4 +14,9 @@
     border-radius: 20px;
     
 }
+.bottom-right{
+    
+    width: 30%;
+}
+
 }
