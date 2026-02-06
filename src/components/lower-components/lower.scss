@@ -4,6 +4,8 @@
     display: flex;
     gap: 1rem;
     padding: 0.8rem 1rem;
+    max-width: 1600px;
+    margin: auto;
     
     
 
@@ -11,11 +13,16 @@
     background-color: var(--secondary-color);
     color: var(--font-color);
     width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     
 }
 .bottom-right{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     width: 30%;
 }
 
